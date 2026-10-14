@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgba(217, 249, 255, 0.158);
+}
+
+#h1-header{
+    font-size: large;
+    padding-top: 3vh;
+    padding-left: 4vh;
+}
+
+header {
+    background: #ffffff;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgb(217, 249, 255) 100%);
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;   /* titre à gauche, nav à droite */
+    align-items: center;              /* centré verticalement */
+}
+
+
+#a-propos{
+    /*background-color: rgb(231, 231, 231);*/
+    border-radius: 10px;
+    padding-left: 18vh;
+}
+
+
+#presentation{
+    margin-top: 7vw;
+    padding-left: 18vh;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul {
+    list-style: none;   /* enlève les points de la liste */
+    display: flex;      /* liens côte à côte */
+    gap: 30px;          /* espace entre les liens */
+    padding-right: 6vh;
+}
