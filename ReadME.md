@@ -4,10 +4,12 @@
 
 <hr>
 
-**Structure:**
+**Structure :**
 
-Portfolio/  
-├── css/  
-│   └── styles.css  
-├── index.html  
+```
+Portfolio/
+├── css/
+│   └── styles.css
+├── index.html
 └── README.md
+```
